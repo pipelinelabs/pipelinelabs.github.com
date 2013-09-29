@@ -314,9 +314,10 @@ Full-Width Styles
 }
 
 #pipelinelabs_tagline {
-  color: #fff;
-  font-size: 24px;
+  color: #F2F2F2;
+  font-size: 18px;
   font-weight: 300;
+  text-indent: -5000px;
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
