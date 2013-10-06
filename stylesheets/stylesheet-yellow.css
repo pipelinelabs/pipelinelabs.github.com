@@ -4,6 +4,20 @@ a {
   color: #ffca08;
 }
 
+#main_content a:hover {
+  color: #ffca08;
+  text-shadow: #000000 0px 0px 2px;
+}
+
+footer a:hover {
+  color: #ffca08;
+  text-shadow: #000000 0px 0px 2px;
+}
+
+#footer_wrap {
+  background: #000000;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;

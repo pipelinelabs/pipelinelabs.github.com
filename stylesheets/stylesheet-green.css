@@ -4,6 +4,20 @@ a {
   color: #00984b;
 }
 
+#main_content a:hover {
+  color: #00984b;
+  text-shadow: #0090ff 0px 0px 2px;
+}
+
+footer a:hover {
+  color: #00984b;
+  text-shadow: #0090ff 0px 0px 2px;
+}
+
+#footer_wrap {
+  background: #324238;
+}
+
 #pipelinelabs_header_wrap {
   background: #324238;
 }
