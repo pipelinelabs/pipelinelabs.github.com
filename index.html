@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Pipeline Labs : Organisation behind the continuous delivery tool: Pipeline. Designed for all stakeholders." />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" title="yellow" type="text/css" media="screen" href="stylesheets/stylesheet-yellow.css">
+    <link rel="alternate stylesheet" title="green" type="text/css" media="screen" href="stylesheets/stylesheet-green.css">
+    <script type="text/javascript" src="javascripts/styleswitcher.js"></script>
 
     <title>Pipeline Labs</title>
   </head>
@@ -17,6 +19,8 @@
     <div id="pipelinelabs_header_wrap" class="outer">
         <header class="inner_header">
           <a id="forkme_banner" href="https://github.com/pipelinelabs">View on GitHub</a>
+          <a id="styleswitcher_yellow" href="#" onclick="setActiveStyleSheet('yellow'); return false;">Yellow</a>
+          <a id="styleswitcher_green" href="#" onclick="setActiveStyleSheet('green'); return false;">Green</a>
 
           <div id="pipelinelabs_title">Pipeline Labs</div>
           <div id="pipelinelabs_tagline">Organisation behind the continuous delivery tool: Pipeline. Designed for all stakeholders.</div>
@@ -28,11 +32,10 @@
         <header class="inner_header">
           <div id="project_title">Pipeline</div>
           <div id="project_tagline"><blockquote>
-            <p>A free, open-source
-            Continuous Delivery tool
-            that's simple to use for hobbyists,
+            <p>A free, open-source continuous delivery tool
+            that's powerful enough for the enterprise,
             flexible enough for startups
-            and powerful enough for the enterprise</p>
+            and simple to use for hobbyists</p>
             </blockquote>
           </div>
         </header>

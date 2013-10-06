@@ -1,0 +1,87 @@
+@import url(generic.css);
+
+a {
+  color: #ffca08;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #000000 no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#pipelinelabs_header_wrap {
+  background: #000000;
+}
+
+#pipelinelabs_header_wrap .inner_header {
+  padding: 25px 10px 10px 10px;
+}
+
+#pipelinelabs_title {
+  background: url('../images/pipelinelabs-yellow.png') no-repeat;
+  margin: 0;
+  width: 250px;
+  height: 50px;
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+  text-indent: -5000px;
+}
+
+#pipelinelabs_tagline {
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: 300;
+  text-indent: -5000px;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+}
+
+#project_header_wrap {
+  background: #ffd602;
+}
+
+#project_header_wrap .inner_header {
+  padding: 50px 10px 50px 10px;
+  height: 125px;
+}
+
+#project_title {
+  background: url('../images/pipeline-yellow.png') no-repeat;
+  margin: 0;
+  width: 370px;
+  height: 100px;
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+  text-indent: -5000px;
+  float: left;
+}
+
+#project_tagline {
+  color: #fff;
+  width: 400px;
+  float:right;
+  margin-top: 20px;
+  
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+}
+
+#project_tagline p, #project_tagline blockquote {
+  padding: 5px;
+  margin: 0px;
+}
+
