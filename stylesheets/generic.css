@@ -369,6 +369,64 @@ Banners & stylesheet-switcher
   border-bottom-right-radius: 2px;
 }
 
+#styleswitcher_greenyellow {
+  display: block;
+  position: absolute;
+  top:0px;
+  right: 250px;
+  z-index: 10;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  background-image: linear-gradient(bottom, rgb(255,213,2) 0%, rgb(255,213,2) 45%, rgb(27,178,108) 80%);
+  background-image: -o-linear-gradient(bottom, rgb(255,213,2) 0%, rgb(255,213,2) 45%, rgb(27,178,108) 80%);
+  background-image: -moz-linear-gradient(bottom, rgb(255,213,2) 0%, rgb(255,213,2) 45%, rgb(27,178,108) 80%);
+  background-image: -webkit-linear-gradient(bottom, rgb(255,213,2) 0%, rgb(255,213,2) 45%, rgb(27,178,108) 80%);
+  background-image: -ms-linear-gradient(bottom, rgb(255,213,2) 0%, rgb(255,213,2) 45%, rgb(27,178,108) 80%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(255,213,2)),
+    color-stop(0.45, rgb(255,213,2)),
+    color-stop(0.8, rgb(27,178,108))
+  );
+  font-weight: 700;
+  text-indent: -5000px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#styleswitcher_yellowgreen {
+  display: block;
+  position: absolute;
+  top:0px;
+  right: 230px;
+  z-index: 10;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  background-image: linear-gradient(bottom, rgb(27,178,108) 0%, rgb(255,213,2) 60%, rgb(255,213,2) 80%);
+  background-image: -o-linear-gradient(bottom, rgb(27,178,108) 0%, rgb(255,213,2) 60%, rgb(255,213,2) 80%);
+  background-image: -moz-linear-gradient(bottom, rgb(27,178,108) 0%, rgb(255,213,2) 60%, rgb(255,213,2) 80%);
+  background-image: -webkit-linear-gradient(bottom, rgb(27,178,108) 0%, rgb(255,213,2) 60%, rgb(255,213,2) 80%);
+  background-image: -ms-linear-gradient(bottom, rgb(27,178,108) 0%, rgb(255,213,2) 60%, rgb(255,213,2) 80%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(27,178,108)),
+    color-stop(0.6, rgb(255,213,2)),
+    color-stop(0.8, rgb(255,213,2))
+  );
+  font-weight: 700;
+  text-indent: -5000px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
 
 /*******************************************************************************
 Small Device Styles
