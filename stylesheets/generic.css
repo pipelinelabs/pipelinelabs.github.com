@@ -154,9 +154,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -369,6 +366,7 @@ Banners & stylesheet-switcher
   border-bottom-right-radius: 2px;
 }
 
+/*
 #styleswitcher_greenyellow {
   display: block;
   position: absolute;
@@ -426,7 +424,7 @@ Banners & stylesheet-switcher
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-
+*/
 
 /*******************************************************************************
 Small Device Styles

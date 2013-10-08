@@ -1,16 +1,16 @@
 @import url(generic.css);
 
 a {
-  color: #ffca08;
+  color: #edbf09;
 }
 
 #main_content a:hover {
-  color: #ffca08;
+  color: #edbf09;
   text-shadow: #000000 0px 0px 2px;
 }
 
 footer a:hover {
-  color: #ffca08;
+  color: #edbf09;
   text-shadow: #000000 0px 0px 2px;
 }
 
@@ -27,7 +27,7 @@ footer a:hover {
 }
 
 #pipelinelabs_title {
-  background: url('../images/pipelinelabs-yellow.png') no-repeat;
+  background: url('../images/pipelinelabs-white.png') no-repeat;
   margin: 0;
   width: 250px;
   height: 50px;
@@ -38,7 +38,7 @@ footer a:hover {
 }
 
 #pipelinelabs_tagline {
-  color: #F2F2F2;
+  color: #fff;
   font-size: 18px;
   font-weight: 300;
   text-indent: -5000px;
@@ -68,7 +68,7 @@ footer a:hover {
 }
 
 #project_tagline {
-  color: #fff;
+  color: #000;
   width: 400px;
   float:right;
   margin-top: 20px;
@@ -82,5 +82,6 @@ footer a:hover {
 #project_tagline p, #project_tagline blockquote {
   padding: 5px;
   margin: 0px;
+  color: #000;
 }
 
