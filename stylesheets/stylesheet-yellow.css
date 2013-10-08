@@ -14,6 +14,11 @@ footer a:hover {
   text-shadow: #000000 0px 0px 2px;
 }
 
+#main_content_wrap {
+  border-top: 0;
+  border-bottom: 0;
+}
+
 #footer_wrap {
   background: #000000;
 }
