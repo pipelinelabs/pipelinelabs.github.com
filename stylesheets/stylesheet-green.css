@@ -14,6 +14,11 @@ footer a:hover {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
+#main_content_wrap {
+  border-top: 0;
+  border-bottom: 0;
+}
+
 #footer_wrap {
   background: #324238;
 }
@@ -27,7 +32,7 @@ footer a:hover {
 }
 
 #pipelinelabs_title {
-  background: url('../images/pipelinelabs-green.png') no-repeat;
+  background: url('../images/pipelinelabs-white.png') no-repeat;
   margin: 0;
   width: 250px;
   height: 50px;
