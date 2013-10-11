@@ -1,17 +1,20 @@
 @import url(generic.css);
 
-a {
-  color: #edbf09;
+a, a:visited {
+   color: #f7941d; /* orange */
+  /* color: #e5a812; */ /* brownie */
+  /* color: #21b24b; */ /* green */
 }
 
-#main_content a:hover {
-  color: #edbf09;
-  text-shadow: #000000 0px 0px 2px;
+a:hover {
+/*  text-shadow: #000000 0px 0px 2px; */
+  text-decoration: underline;
+/*  color: #f7941d; */
 }
 
-footer a:hover {
-  color: #edbf09;
-  text-shadow: #000000 0px 0px 2px;
+body {
+  background: #ffd602;
+  color: #000000;
 }
 
 #main_content_wrap {
@@ -20,11 +23,12 @@ footer a:hover {
 }
 
 #footer_wrap {
-  background: #000000;
+  background: url('../images/pipelinelabs-pattern00-trans.png') repeat #000000;
+  margin-top: 20px;
 }
 
 #pipelinelabs_header_wrap {
-  background: #000000;
+  background: url('../images/pipelinelabs-header00.png') no-repeat center;
 }
 
 #pipelinelabs_header_wrap .inner_header {
@@ -32,7 +36,7 @@ footer a:hover {
 }
 
 #pipelinelabs_title {
-  background: url('../images/pipelinelabs-white.png') no-repeat;
+/*  background: url('../images/pipelinelabs-white.png') no-repeat; */
   margin: 0;
   width: 250px;
   height: 50px;

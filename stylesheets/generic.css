@@ -340,7 +340,7 @@ Banners & stylesheet-switcher
   top:0px;
   right: 190px;
   z-index: 10;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 20px 10px 10px;
   color: #fff;
   background-color: #ffd602;
   font-weight: 700;
@@ -354,9 +354,9 @@ Banners & stylesheet-switcher
   display: block;
   position: absolute;
   top:0px;
-  right: 210px;
+  right: 223px;
   z-index: 10;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 20px 10px 10px;
   color: #fff;
   background-color: #1bb26b;
   font-weight: 700;
