@@ -1,19 +1,19 @@
 @import url(generic.css);
 
-a, a:visited {
-   color: #f7941d; /* orange */
-  /* color: #e5a812; */ /* brownie */
-  /* color: #21b24b; */ /* green */
+a {
+   color: #ff6633;
+}
+
+a:visited {
+   color: #cc9933;
 }
 
 a:hover {
-/*  text-shadow: #000000 0px 0px 2px; */
   text-decoration: underline;
-/*  color: #f7941d; */
 }
 
 body {
-  background: #ffd602;
+  background: #ffcc00;
   color: #000000;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 #project_header_wrap {
-  background: #ffd602;
+  background: #ffcc00;
 }
 
 #project_header_wrap .inner_header {
@@ -67,8 +67,8 @@ body {
 #project_title {
   background: url('../images/pipeline-yellow.png') no-repeat;
   margin: 0;
-  width: 370px;
-  height: 100px;
+  width: 375px;
+  height: 108px;
   color: #000000;
   font-size: 42px;
   font-weight: 700;
