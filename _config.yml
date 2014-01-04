@@ -1,0 +1,11 @@
+name: PipelineLabs
+
+
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+
+permalink: pretty
+
+exclude: ['node_modules', 'Gruntfile.js', 'LICENSE', 'package.json', '*.iml', 'README.md']

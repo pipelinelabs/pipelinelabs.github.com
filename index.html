@@ -1,179 +1,44 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: PipelineLabs, open-source projects supporting the Continuous Delivery pipeline
+name: home
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Pipeline Labs : Organisation behind the continuous delivery tool: Pipeline. Designed for all stakeholders." />
+<div class="jumbotron blackbg whitetext">
+    <div class="container">
+        <h1>PipelineLabs</h1>
 
-    <link rel="stylesheet" title="yellow" type="text/css" media="screen" href="stylesheets/stylesheet-yellow.css">
+        <p>Open-Source projects supporting the Continuous Delivery pipeline</p>
 
-    <title>Pipeline Labs</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="pipelinelabs_header_wrap" class="outer">
-        <header class="inner_header">
-          <a id="forkme_banner" href="http://github.pipelinelabs.org">View on GitHub</a>
-          
-          <div id="pipelinelabs_title">Pipeline Labs</div>
-          <div id="pipelinelabs_tagline">Organisation behind the continuous delivery tool: Pipeline. Designed for all stakeholders.</div>
-
-        </header>
+        <h2>Featuring:</h2>
     </div>
-    
-        <div id="project_header_wrap" class="outer">
-        <header class="inner_header">
-          <div id="project_title">Pipeline</div>
-          <div id="project_tagline"><blockquote>
-            <p>A free, open-source continuous delivery tool
-            that's powerful enough for the enterprise,
-            flexible enough for startups
-            and simple to use for hobbyists</p>
-            </blockquote>
-          </div>
-        </header>
+</div>
+
+<div class="jumbotron yellowbg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="http://pipelinecd.org"><img src="media/pipeline-yellow.png"/></a>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="whitebg">
+                    <p>A free, open-source continuous delivery tool that's
+                        powerful enough for the enterprise, flexible enough
+                        for startups and simple to use for hobbyists
+                    </p>
+                </blockquote>
+                <p>
+                    <a href="http://pipelinecd.org" class="btn btn-default btn-lg" role="button">
+                        Learn more
+                    </a>
+                    <a href="https://github.com/pipelinecd/" class="btn btn-default btn-lg" role="button">
+                        Github <span class="fa fa-github"></span>
+                    </a>
+                    <a href="https://twitter.com/pipelinecd" class="btn btn-default btn-lg" role="button">
+                        Twitter <span class="fa fa-twitter"></span>
+                    </a>
+                </p>
+            </div>
+        </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-<p>A Continuous Delivery (CD) tool, which we and all stakeholders of the CD pipeline love to use. Licensed under the <a href="http://github.pipelinelabs.org/blob/master/LICENSE">MIT License</a></p>
-
-<p>Find the latest release on the <a href="http://github.pipelinelabs.org/releases">releases</a> page. And follow the <a href="http://docs.pipelinelabs.org/User-Guide%3A-Set-up-with-Central-Repository">installation</a> and <a href="http://docs.pipelinelabs.org/User-Guide%3A-Project-Pipeline-Configuration">configuration</a> documentation to get started.</p>
-
-<h2>
-<a name="state-of-the-project" class="anchor" href="#state-of-the-project"><span class="octicon octicon-link"></span></a>State of the project</h2>
-
-<p>This project is currently in a very early state of development. Development happens in a LEAN way, bit by bit adding features and improving based on user experiences and feedback. Give your feedback at the <a href="http://forum.pipelinelabs.org">user/dev forum</a>.</p>
-
-<h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
-
-<ul>
-<li>From the ground-up, pipeline-based</li>
-<li>Pipeline configuration in pipeline domain language (DSL)</li>
-<li>Version controlled pipeline configuration</li>
-<li>Support for public and private git repositories
-
-<ul>
-<li>hosted on <a href="http://github.com">Github</a>, triggered via <a href="https://help.github.com/articles/post-receive-hooks">webhook</a>
-</li>
-<li>hosted on <a href="http://gitlab.org">GitLab(.org/com)</a>, triggered via [webhook] as explained on [Web hooks] help page of your GitLab installation
-</li>
-</ul>
-</li>
-</ul><h2>
-<a name="resources" class="anchor" href="#resources"><span class="octicon octicon-link"></span></a>Resources</h2>
-
-<ul>
-<li>Pipeline Homepage -- <a href="http://pipelinelabs.org">http://pipelinelabs.org</a>
-</li>
-<li>GitHub Organization -- <a href="http://github.pipelinelabs.org">http://github.pipelinelabs.org</a>
-</li>
-<li>Documentation -- <a href="http://docs.pipelinelabs.org">http://docs.pipelinelabs.org</a>
-</li>
-<li>User/Dev Forum -- <a href="http://forum.pipelinelabs.org">http://forum.pipelinelabs.org</a>
-</li>
-<li>Issue Tracker -- <a href="http://issues.pipelinelabs.org">http://issues.pipelinelabs.org</a>
-</li>
-<li>Ignite talk "Continuous Integration and Delivery tools, do we really like using them?"
-<ul>
-<li><a href="http://www.youtube.com/watch?v=shF_v5shzjU">Preparation run recording</a></li>
-<li><a href="http://www.youtube.com/watch?v=-StobwMgRNE">@DevOpsDays Amsterdam, June 14th 2013 recording</a></li>
-</ul>
-</li>
-</ul><p>Follow us on Twitter <a href="https://twitter.com/pipelinelabs">@pipelinelabs</a></p>
-
-<h2>
-<a name="roadmap" class="anchor" href="#roadmap"><span class="octicon octicon-link"></span></a>Roadmap</h2>
-
-<p>Some ideas on epics/topics we want to have implemented along the way, in no particular order:</p>
-
-<ul>
-<li>Configuration service that provides generic configuration to all pipelines
-
-<ul>
-<li>Also supporting a secure way for sensitive configuration data</li>
-</ul>
-</li>
-<li>Native packages for different OS'es, for easy installation
-
-<ul>
-<li>Also providing scripts to run services as system daemons/services</li>
-</ul>
-</li>
-<li>Extensive logging and monitoring functionality</li>
-<li>Extend pipeline configuration with environment and execution information for simpler maintenance by not depending on specific server configurations, the pipeline takes care of everything in a versioned manner. For example:
-
-<ul>
-<li>Environment variables to make available to the whole pipeline, specific stages or specific commands</li>
-<li>System applications and versions which are required to run the pipeline are installed and configured automatically</li>
-<li>...</li>
-</ul>
-</li>
-<li>Different GUI's, for the different types of users and usages
-
-<ul>
-<li>All communicating with one single API against the system</li>
-</ul>
-</li>
-<li>Support for different authentication and authorization schemes</li>
-</ul><h2>
-<a name="building-pipeline" class="anchor" href="#building-pipeline"><span class="octicon octicon-link"></span></a>Building Pipeline</h2>
-
-<p>The only prerequisite is that you have JDK 7 or higher installed.</p>
-
-<p>After cloning the project, type <code>./gradlew clean build</code> (Windows: <code>gradlew clean build</code>). All build dependencies,
-including <a href="http://www.gradle.org">Gradle</a> itself, will be downloaded automatically (unless already present).</p>
-
-<h2>
-<a name="contributing-to-this-project" class="anchor" href="#contributing-to-this-project"><span class="octicon octicon-link"></span></a>Contributing to this project</h2>
-
-<p>Anyone and everyone is welcome to contribute. Please take a moment to
-review the <a href="http://github.pipelinelabs.org/blob/master/CONTRIBUTING.md">guidelines for contributing</a>.</p>
-
-<ul>
-<li><a href="http://github.pipelinelabs.org/blob/master/CONTRIBUTING.md#bugs">Bug reports</a></li>
-<li><a href="http://github.pipelinelabs.org/blob/master/CONTRIBUTING.md#features">Feature requests</a></li>
-<li><a href="http://github.pipelinelabs.org/blob/master/CONTRIBUTING.md#pull-requests">Pull requests</a></li>
-</ul>
-
-
-<h2>
-<a name="special-thanks-to" class="anchor" href="#special-thanks-to"><span class="octicon octicon-link"></span></a>Special thanks to</h2>
-
-<ul>
-<li>
-<a href="http://www.andrewoberstar.com">Andrew Oberstar</a> for being the very first code contributor and all-round providing great support and feedback</li>
-<li>
-<a href="http://www.linkedin.com/in/martinkov">Martin Kovachki</a> for awesome logo designs</li>
-<li>
-<a href="http://www.tricode.nl">Tricode</a> for sponsoring developer-time and resources</li>
-</ul>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p/>
-      </footer>
-    </div>
-
-    <!-- Google Analytics  -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-45894260-2', 'pipelinelabs.org');
-  ga('send', 'pageview');
-    </script>
-
-  </body>
-</html>
+</div>
